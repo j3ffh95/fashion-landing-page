@@ -79,3 +79,12 @@ a::after {
 .text {
   font-size: 2rem;
 }
+
+.text p {
+  font-weight: 200;
+}
+
+img {
+  box-shadow: 15px 15px #a66000;
+  margin: 3rem 0;
+}
