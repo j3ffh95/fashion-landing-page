@@ -24,7 +24,7 @@ body {
 
 .logo {
   color: #764400;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 h1 {
@@ -87,4 +87,29 @@ a::after {
 img {
   box-shadow: 15px 15px #a66000;
   margin: 3rem 0;
+}
+
+img.shadow-reverse {
+  box-shadow: -15px -15px #a66000;
+}
+
+.block {
+  font-size: 2.5rem;
+  display: block;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+
+  .col {
+    text-align: center;
+  }
+
+  .col:first-child {
+    margin-right: 0;
+  }
 }
