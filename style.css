@@ -38,7 +38,7 @@ h1 {
 }
 
 h1 a {
-  transform: scale(0.7);
+  transform: scale(0.5);
 }
 
 a {
@@ -59,4 +59,23 @@ a::after {
   height: 100%;
   transform: skew(-30deg);
   z-index: -1;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.col:first-child {
+  margin-right: 4rem;
+}
+
+.text {
+  font-size: 2rem;
 }
