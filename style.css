@@ -26,3 +26,25 @@ body {
   color: #764400;
   font-size: 4rem;
 }
+
+h1 {
+  color: #a66000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h1 a {
+  transform: scale(0.7);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+}
