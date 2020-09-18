@@ -21,3 +21,8 @@ body {
   /* width: 1000px; */
   max-width: 100%;
 }
+
+.logo {
+  color: #764400;
+  font-size: 4rem;
+}
